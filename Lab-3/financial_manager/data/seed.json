@@ -1,0 +1,1576 @@
+{
+  "accounts": [
+    {
+      "id": "a1",
+      "name": "Негізгі шот",
+      "balance": 50000,
+      "currency": "KZT"
+    },
+    {
+      "id": "a2",
+      "name": "Қолма-қол",
+      "balance": 20000,
+      "currency": "KZT"
+    },
+    {
+      "id": "a3",
+      "name": "Жинақ",
+      "balance": 100000,
+      "currency": "KZT"
+    }
+  ],
+  "categories": [
+    {
+      "id": "food",
+      "name": "Тамақтану",
+      "parent_id": null,
+      "type": "expense"
+    },
+    {
+      "id": "groceries",
+      "name": "Азық-түлік",
+      "parent_id": "food",
+      "type": "expense"
+    },
+    {
+      "id": "cafe",
+      "name": "Кафе",
+      "parent_id": "food",
+      "type": "expense"
+    },
+    {
+      "id": "transport",
+      "name": "Көлік",
+      "parent_id": null,
+      "type": "expense"
+    },
+    {
+      "id": "bus",
+      "name": "Автобус",
+      "parent_id": "transport",
+      "type": "expense"
+    },
+    {
+      "id": "taxi",
+      "name": "Такси",
+      "parent_id": "transport",
+      "type": "expense"
+    },
+    {
+      "id": "leisure",
+      "name": "Демалыс",
+      "parent_id": null,
+      "type": "expense"
+    },
+    {
+      "id": "cinema",
+      "name": "Кино",
+      "parent_id": "leisure",
+      "type": "expense"
+    },
+    {
+      "id": "books",
+      "name": "Кітаптар",
+      "parent_id": "leisure",
+      "type": "expense"
+    },
+    {
+      "id": "sport",
+      "name": "Спорт",
+      "parent_id": "leisure",
+      "type": "expense"
+    },
+    {
+      "id": "home",
+      "name": "Үй",
+      "parent_id": null,
+      "type": "expense"
+    },
+    {
+      "id": "utilities",
+      "name": "Коммуналдық төлем",
+      "parent_id": "home",
+      "type": "expense"
+    },
+    {
+      "id": "income",
+      "name": "Кіріс",
+      "parent_id": null,
+      "type": "income"
+    },
+    {
+      "id": "salary",
+      "name": "Жалақы",
+      "parent_id": "income",
+      "type": "income"
+    },
+    {
+      "id": "bonus",
+      "name": "Сыйақы",
+      "parent_id": "income",
+      "type": "income"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t-04-00",
+      "account_id": "a1",
+      "cat_id": "salary",
+      "amount": 124000,
+      "ts": "2026-04-01",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-04-01",
+      "account_id": "a2",
+      "cat_id": "salary",
+      "amount": 124000,
+      "ts": "2026-04-02",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-04-02",
+      "account_id": "a3",
+      "cat_id": "salary",
+      "amount": 124000,
+      "ts": "2026-04-03",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-04-03",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -3500,
+      "ts": "2026-04-04",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-04",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -5200,
+      "ts": "2026-04-05",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-05",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -1900,
+      "ts": "2026-04-06",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-06",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -3600,
+      "ts": "2026-04-07",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-07",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -5300,
+      "ts": "2026-04-08",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-08",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -2000,
+      "ts": "2026-04-09",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-09",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -3700,
+      "ts": "2026-04-10",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-10",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -5400,
+      "ts": "2026-04-11",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-11",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -2100,
+      "ts": "2026-04-12",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-12",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -3800,
+      "ts": "2026-04-13",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-13",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -5500,
+      "ts": "2026-04-14",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-14",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -2200,
+      "ts": "2026-04-15",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-15",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -3900,
+      "ts": "2026-04-16",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-16",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -5600,
+      "ts": "2026-04-17",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-17",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -2300,
+      "ts": "2026-04-18",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-18",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -4000,
+      "ts": "2026-04-19",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-19",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -5700,
+      "ts": "2026-04-20",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-20",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -2400,
+      "ts": "2026-04-21",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-21",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -4100,
+      "ts": "2026-04-22",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-22",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -5800,
+      "ts": "2026-04-23",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-23",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -2500,
+      "ts": "2026-04-24",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-24",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -4200,
+      "ts": "2026-04-25",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-25",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -5900,
+      "ts": "2026-04-26",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-26",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -2600,
+      "ts": "2026-04-27",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-27",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -4300,
+      "ts": "2026-04-28",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-28",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -1000,
+      "ts": "2026-04-01",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-04-29",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -2700,
+      "ts": "2026-04-02",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-00",
+      "account_id": "a1",
+      "cat_id": "salary",
+      "amount": 125000,
+      "ts": "2026-05-01",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-05-01",
+      "account_id": "a2",
+      "cat_id": "salary",
+      "amount": 125000,
+      "ts": "2026-05-02",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-05-02",
+      "account_id": "a3",
+      "cat_id": "salary",
+      "amount": 125000,
+      "ts": "2026-05-03",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-05-03",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -1600,
+      "ts": "2026-05-04",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-04",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -3300,
+      "ts": "2026-05-05",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-05",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -5000,
+      "ts": "2026-05-06",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-06",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -1700,
+      "ts": "2026-05-07",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-07",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -3400,
+      "ts": "2026-05-08",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-08",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -5100,
+      "ts": "2026-05-09",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-09",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -1800,
+      "ts": "2026-05-10",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-10",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -3500,
+      "ts": "2026-05-11",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-11",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -5200,
+      "ts": "2026-05-12",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-12",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -1900,
+      "ts": "2026-05-13",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-13",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -3600,
+      "ts": "2026-05-14",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-14",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -5300,
+      "ts": "2026-05-15",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-15",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -2000,
+      "ts": "2026-05-16",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-16",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -3700,
+      "ts": "2026-05-17",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-17",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -5400,
+      "ts": "2026-05-18",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-18",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -2100,
+      "ts": "2026-05-19",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-19",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -3800,
+      "ts": "2026-05-20",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-20",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -5500,
+      "ts": "2026-05-21",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-21",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -2200,
+      "ts": "2026-05-22",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-22",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -3900,
+      "ts": "2026-05-23",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-23",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -5600,
+      "ts": "2026-05-24",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-24",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -2300,
+      "ts": "2026-05-25",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-25",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -4000,
+      "ts": "2026-05-26",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-26",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -5700,
+      "ts": "2026-05-27",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-27",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -2400,
+      "ts": "2026-05-28",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-28",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -4100,
+      "ts": "2026-05-01",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-05-29",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -5800,
+      "ts": "2026-05-02",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-00",
+      "account_id": "a1",
+      "cat_id": "salary",
+      "amount": 126000,
+      "ts": "2026-06-01",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-06-01",
+      "account_id": "a2",
+      "cat_id": "salary",
+      "amount": 126000,
+      "ts": "2026-06-02",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-06-02",
+      "account_id": "a3",
+      "cat_id": "salary",
+      "amount": 126000,
+      "ts": "2026-06-03",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-06-03",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -4700,
+      "ts": "2026-06-04",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-04",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -1400,
+      "ts": "2026-06-05",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-05",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -3100,
+      "ts": "2026-06-06",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-06",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -4800,
+      "ts": "2026-06-07",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-07",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -1500,
+      "ts": "2026-06-08",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-08",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -3200,
+      "ts": "2026-06-09",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-09",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -4900,
+      "ts": "2026-06-10",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-10",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -1600,
+      "ts": "2026-06-11",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-11",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -3300,
+      "ts": "2026-06-12",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-12",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -5000,
+      "ts": "2026-06-13",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-13",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -1700,
+      "ts": "2026-06-14",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-14",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -3400,
+      "ts": "2026-06-15",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-15",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -5100,
+      "ts": "2026-06-16",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-16",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -1800,
+      "ts": "2026-06-17",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-17",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -3500,
+      "ts": "2026-06-18",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-18",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -5200,
+      "ts": "2026-06-19",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-19",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -1900,
+      "ts": "2026-06-20",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-20",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -3600,
+      "ts": "2026-06-21",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-21",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -5300,
+      "ts": "2026-06-22",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-22",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -2000,
+      "ts": "2026-06-23",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-23",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -3700,
+      "ts": "2026-06-24",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-24",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -5400,
+      "ts": "2026-06-25",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-25",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -2100,
+      "ts": "2026-06-26",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-26",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -3800,
+      "ts": "2026-06-27",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-27",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -5500,
+      "ts": "2026-06-28",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-28",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -2200,
+      "ts": "2026-06-01",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-06-29",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -3900,
+      "ts": "2026-06-02",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-00",
+      "account_id": "a1",
+      "cat_id": "salary",
+      "amount": 127000,
+      "ts": "2026-07-01",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-07-01",
+      "account_id": "a2",
+      "cat_id": "salary",
+      "amount": 127000,
+      "ts": "2026-07-02",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-07-02",
+      "account_id": "a3",
+      "cat_id": "salary",
+      "amount": 127000,
+      "ts": "2026-07-03",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-07-03",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -2800,
+      "ts": "2026-07-04",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-04",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -4500,
+      "ts": "2026-07-05",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-05",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -1200,
+      "ts": "2026-07-06",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-06",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -2900,
+      "ts": "2026-07-07",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-07",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -4600,
+      "ts": "2026-07-08",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-08",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -1300,
+      "ts": "2026-07-09",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-09",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -3000,
+      "ts": "2026-07-10",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-10",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -4700,
+      "ts": "2026-07-11",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-11",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -1400,
+      "ts": "2026-07-12",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-12",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -3100,
+      "ts": "2026-07-13",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-13",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -4800,
+      "ts": "2026-07-14",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-14",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -1500,
+      "ts": "2026-07-15",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-15",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -3200,
+      "ts": "2026-07-16",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-16",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -4900,
+      "ts": "2026-07-17",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-17",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -1600,
+      "ts": "2026-07-18",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-18",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -3300,
+      "ts": "2026-07-19",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-19",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -5000,
+      "ts": "2026-07-20",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-20",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -1700,
+      "ts": "2026-07-21",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-21",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -3400,
+      "ts": "2026-07-22",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-22",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -5100,
+      "ts": "2026-07-23",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-23",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -1800,
+      "ts": "2026-07-24",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-24",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -3500,
+      "ts": "2026-07-25",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-25",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -5200,
+      "ts": "2026-07-26",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-26",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -1900,
+      "ts": "2026-07-27",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-27",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -3600,
+      "ts": "2026-07-28",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-28",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -5300,
+      "ts": "2026-07-01",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-07-29",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -2000,
+      "ts": "2026-07-02",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-00",
+      "account_id": "a1",
+      "cat_id": "salary",
+      "amount": 128000,
+      "ts": "2026-08-01",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-08-01",
+      "account_id": "a2",
+      "cat_id": "salary",
+      "amount": 128000,
+      "ts": "2026-08-02",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-08-02",
+      "account_id": "a3",
+      "cat_id": "salary",
+      "amount": 128000,
+      "ts": "2026-08-03",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-08-03",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -5900,
+      "ts": "2026-08-04",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-04",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -2600,
+      "ts": "2026-08-05",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-05",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -4300,
+      "ts": "2026-08-06",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-06",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -1000,
+      "ts": "2026-08-07",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-07",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -2700,
+      "ts": "2026-08-08",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-08",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -4400,
+      "ts": "2026-08-09",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-09",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -1100,
+      "ts": "2026-08-10",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-10",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -2800,
+      "ts": "2026-08-11",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-11",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -4500,
+      "ts": "2026-08-12",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-12",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -1200,
+      "ts": "2026-08-13",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-13",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -2900,
+      "ts": "2026-08-14",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-14",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -4600,
+      "ts": "2026-08-15",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-15",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -1300,
+      "ts": "2026-08-16",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-16",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -3000,
+      "ts": "2026-08-17",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-17",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -4700,
+      "ts": "2026-08-18",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-18",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -1400,
+      "ts": "2026-08-19",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-19",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -3100,
+      "ts": "2026-08-20",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-20",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -4800,
+      "ts": "2026-08-21",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-21",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -1500,
+      "ts": "2026-08-22",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-22",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -3200,
+      "ts": "2026-08-23",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-23",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -4900,
+      "ts": "2026-08-24",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-24",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -1600,
+      "ts": "2026-08-25",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-25",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -3300,
+      "ts": "2026-08-26",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-26",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -5000,
+      "ts": "2026-08-27",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-27",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -1700,
+      "ts": "2026-08-28",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-28",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -3400,
+      "ts": "2026-08-01",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-08-29",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -5100,
+      "ts": "2026-08-02",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-00",
+      "account_id": "a1",
+      "cat_id": "salary",
+      "amount": 129000,
+      "ts": "2026-09-01",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-09-01",
+      "account_id": "a2",
+      "cat_id": "salary",
+      "amount": 129000,
+      "ts": "2026-09-02",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-09-02",
+      "account_id": "a3",
+      "cat_id": "salary",
+      "amount": 129000,
+      "ts": "2026-09-03",
+      "note": "Жалақы"
+    },
+    {
+      "id": "t-09-03",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -4000,
+      "ts": "2026-09-04",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-04",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -5700,
+      "ts": "2026-09-05",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-05",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -2400,
+      "ts": "2026-09-06",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-06",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -4100,
+      "ts": "2026-09-07",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-07",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -5800,
+      "ts": "2026-09-08",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-08",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -2500,
+      "ts": "2026-09-09",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-09",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -4200,
+      "ts": "2026-09-10",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-10",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -5900,
+      "ts": "2026-09-11",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-11",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -2600,
+      "ts": "2026-09-12",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-12",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -4300,
+      "ts": "2026-09-13",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-13",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -1000,
+      "ts": "2026-09-14",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-14",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -2700,
+      "ts": "2026-09-15",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-15",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -4400,
+      "ts": "2026-09-16",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-16",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -1100,
+      "ts": "2026-09-17",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-17",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -2800,
+      "ts": "2026-09-18",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-18",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -4500,
+      "ts": "2026-09-19",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-19",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -1200,
+      "ts": "2026-09-20",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-20",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -2900,
+      "ts": "2026-09-21",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-21",
+      "account_id": "a1",
+      "cat_id": "groceries",
+      "amount": -4600,
+      "ts": "2026-09-22",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-22",
+      "account_id": "a2",
+      "cat_id": "cafe",
+      "amount": -1300,
+      "ts": "2026-09-23",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-23",
+      "account_id": "a3",
+      "cat_id": "bus",
+      "amount": -3000,
+      "ts": "2026-09-24",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-24",
+      "account_id": "a1",
+      "cat_id": "taxi",
+      "amount": -4700,
+      "ts": "2026-09-25",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-25",
+      "account_id": "a2",
+      "cat_id": "cinema",
+      "amount": -1400,
+      "ts": "2026-09-26",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-26",
+      "account_id": "a3",
+      "cat_id": "books",
+      "amount": -3100,
+      "ts": "2026-09-27",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-27",
+      "account_id": "a1",
+      "cat_id": "sport",
+      "amount": -4800,
+      "ts": "2026-09-28",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-28",
+      "account_id": "a2",
+      "cat_id": "utilities",
+      "amount": -1500,
+      "ts": "2026-09-01",
+      "note": "Үлгі шығын"
+    },
+    {
+      "id": "t-09-29",
+      "account_id": "a3",
+      "cat_id": "food",
+      "amount": -3200,
+      "ts": "2026-09-02",
+      "note": "Үлгі шығын"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "b1",
+      "cat_id": "groceries",
+      "limit": 18000,
+      "period": "month"
+    },
+    {
+      "id": "b2",
+      "cat_id": "taxi",
+      "limit": 5000,
+      "period": "week"
+    },
+    {
+      "id": "b3",
+      "cat_id": "cinema",
+      "limit": 8000,
+      "period": "month"
+    }
+  ]
+}

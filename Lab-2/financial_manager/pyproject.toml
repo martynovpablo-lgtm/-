@@ -1,0 +1,22 @@
+[project]
+name = "financial-manager-labs"
+version = "1.0.0"
+description = "Қаржы менеджері: 1–4 зертхана"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+# №2 тапсырмасы lambda тұйықтауларын тікелей көрсетуді сұрайды.
+ignore = ["E731"]
